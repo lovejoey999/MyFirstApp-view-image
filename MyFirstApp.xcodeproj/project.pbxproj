@@ -12,6 +12,8 @@
 		31060F9B1F9F5E24001EB201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31060F991F9F5E24001EB201 /* Main.storyboard */; };
 		31060F9D1F9F5E24001EB201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31060F9C1F9F5E24001EB201 /* Assets.xcassets */; };
 		31060FA01F9F5E24001EB201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31060F9E1F9F5E24001EB201 /* LaunchScreen.storyboard */; };
+		3150DEA61FA25641005242A4 /* olaf-frozen-pixel-art-pixel-art_orig.png in Resources */ = {isa = PBXBuildFile; fileRef = 3150DEA51FA25641005242A4 /* olaf-frozen-pixel-art-pixel-art_orig.png */; };
+		3150DEA81FA593D7005242A4 /* retro-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 3150DEA71FA593D6005242A4 /* retro-heart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		31060F9C1F9F5E24001EB201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31060F9F1F9F5E24001EB201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31060FA11F9F5E24001EB201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3150DEA51FA25641005242A4 /* olaf-frozen-pixel-art-pixel-art_orig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "olaf-frozen-pixel-art-pixel-art_orig.png"; sourceTree = "<group>"; };
+		3150DEA71FA593D6005242A4 /* retro-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "retro-heart.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 				31060F951F9F5E24001EB201 /* AppDelegate.swift */,
 				31060F971F9F5E24001EB201 /* ViewController.swift */,
 				31060F991F9F5E24001EB201 /* Main.storyboard */,
+				3150DEA71FA593D6005242A4 /* retro-heart.png */,
 				31060F9C1F9F5E24001EB201 /* Assets.xcassets */,
 				31060F9E1F9F5E24001EB201 /* LaunchScreen.storyboard */,
+				3150DEA51FA25641005242A4 /* olaf-frozen-pixel-art-pixel-art_orig.png */,
 				31060FA11F9F5E24001EB201 /* Info.plist */,
 			);
 			path = MyFirstApp;
@@ -122,8 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3150DEA61FA25641005242A4 /* olaf-frozen-pixel-art-pixel-art_orig.png in Resources */,
 				31060FA01F9F5E24001EB201 /* LaunchScreen.storyboard in Resources */,
 				31060F9D1F9F5E24001EB201 /* Assets.xcassets in Resources */,
+				3150DEA81FA593D7005242A4 /* retro-heart.png in Resources */,
 				31060F9B1F9F5E24001EB201 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,11 +283,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyFirstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stoller.MyFirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,11 +298,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyFirstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stoller.MyFirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
